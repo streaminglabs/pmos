@@ -1,4 +1,4 @@
-# FR2MOS (Full Reference to MOS) conversions
+# PMOS - Parametric MOS models
 ## Summary
 This project implements mappings between full-reference quality metrics (such as PSNR, SSIM, VMAF, etc.) and human-reported MOS scores on various types of user devices, including PCs, tablets, smartphones, and TVs. Such mappings also account for the SDR/HDR nature of the content, display, and player parameters, as well as upscaling algorithms. Potential applications include streaming analytics, playback, and encoding optimization tools.
 
