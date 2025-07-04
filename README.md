@@ -1,4 +1,4 @@
-# FR2MOS (Full Reference 2 MOS) conversions
+# FR2MOS (Full Reference to MOS) conversions
 ## Summary
 This project implements mappings between PSNR, SSIM, VMAF and other popular full-reference quality metrics and human-reported MOS scores on different types of user devices: PCs, tablets, smartphones, and TVs. Potential applications include streaming analytics, playback, and encoding optimizations tools. 
 
