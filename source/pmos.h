@@ -19,8 +19,8 @@ extern "C" {
 enum device_types { 
 	device_mobile = 0,		/* mobile device, e.g. Samsung Galaxy S21, 6.2", viewing distance ~ 13"*/
 	device_tablet,			/* tablet, e.g. Samsung Galaxy Tab S8 Plus, 12.4", viewing distance ~ 18 */
-	device_pc,				/* PC screen, e.g. Dell UltraSharp U3011, 30", viewing distance ~ 24" */
-	device_tv,				/* TV, e.g. 55" UHDTV set, viewing distance ~ 3H (81") */
+	device_pc,			/* PC screen, e.g. Dell UltraSharp U3011, 30", viewing distance ~ 24" */
+	device_tv,			/* TV, e.g. 55" UHDTV set, viewing distance ~ 3H (81") */
 	device_custom,			/* custom device -> device_param structure must be provided to define its parameters */
 	n_device_types			/* the number of device types defined by this enum */
 };
@@ -37,10 +37,10 @@ struct device_params {
 
 /*! Upsampling methods: */
 enum upsampling_methods {
-	upsampling_bicubic = 0,	/* bicubic upsampling - commonly used conventional upsampling method [default] */
+	upsampling_bicubic = 0,		/* bicubic upsampling - commonly used conventional upsampling method [default] */
 	upsampling_nn,			/* nearest neighbour usampling - horrible, but occasionally ocurring in practice */
 	upsampling_sr,			/* super-resolution based upsampling - indicates the use of more sophisticated algorithm than bicubic */
-	n_upsampling_methods	/* the number of upsampling methods defined by this enum */
+	n_upsampling_methods		/* the number of upsampling methods defined by this enum */
 };
 
 /*! Function prototypes: */
